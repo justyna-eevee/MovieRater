@@ -1,0 +1,15 @@
+{% extends 'głowny.html' %}
+
+{% block title %} Usuwanie filmu {% endblock %}
+
+{% block body %}
+    <div class="alert alert-danger" role="alert">
+      CZY NA PEWNO CHCESZ USUNĄĆ {{ film.name }}???
+    </div>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-danger"><i class="fas fa-check-circle"></i></button>
+        <a href="{% url 'test_response' %}"><i class="fas fa-2x fa-share"></i></a>
+    </form>
+
+{% endblock %}

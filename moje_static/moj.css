@@ -1,0 +1,21 @@
+body {
+    color: #444;
+    padding: 50px;
+}
+
+h5 {
+    color: red;
+}
+
+img {
+    width: 150px;
+    float: left;
+}
+
+.card {
+    width: 800px;
+}
+
+.desc {
+    margin-left: 15px;
+}
