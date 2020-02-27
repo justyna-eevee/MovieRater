@@ -2,3 +2,6 @@
 *.sqlite3
 *pyc
 moje_media
+.env
+requirement.txt
+runtime.txt
